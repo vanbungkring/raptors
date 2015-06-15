@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435707641B2EAFD5003D7E73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 435707631B2EAFD5003D7E73 /* main.m */; };
+		435707671B2EAFD5003D7E73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 435707661B2EAFD5003D7E73 /* AppDelegate.m */; };
+		4357076A1B2EAFD5003D7E73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 435707691B2EAFD5003D7E73 /* ViewController.m */; };
+		4357076D1B2EAFD5003D7E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4357076B1B2EAFD5003D7E73 /* Main.storyboard */; };
+		4357076F1B2EAFD5003D7E73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4357076E1B2EAFD5003D7E73 /* Images.xcassets */; };
+		435707721B2EAFD5003D7E73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435707701B2EAFD5003D7E73 /* LaunchScreen.xib */; };
+		4357077E1B2EAFD5003D7E73 /* KarejoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4357077D1B2EAFD5003D7E73 /* KarejoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435707781B2EAFD5003D7E73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435707561B2EAFD4003D7E73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4357075D1B2EAFD4003D7E73;
+			remoteInfo = Karejo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4357075E1B2EAFD4003D7E73 /* Karejo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Karejo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435707621B2EAFD4003D7E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435707631B2EAFD5003D7E73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		435707651B2EAFD5003D7E73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		435707661B2EAFD5003D7E73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		435707681B2EAFD5003D7E73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		435707691B2EAFD5003D7E73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4357076C1B2EAFD5003D7E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4357076E1B2EAFD5003D7E73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		435707711B2EAFD5003D7E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		435707771B2EAFD5003D7E73 /* KarejoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarejoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4357077C1B2EAFD5003D7E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4357077D1B2EAFD5003D7E73 /* KarejoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KarejoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4357075B1B2EAFD4003D7E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435707741B2EAFD5003D7E73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435707551B2EAFD4003D7E73 = {
+			isa = PBXGroup;
+			children = (
+				435707601B2EAFD4003D7E73 /* Karejo */,
+				4357077A1B2EAFD5003D7E73 /* KarejoTests */,
+				4357075F1B2EAFD4003D7E73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4357075F1B2EAFD4003D7E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4357075E1B2EAFD4003D7E73 /* Karejo.app */,
+				435707771B2EAFD5003D7E73 /* KarejoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435707601B2EAFD4003D7E73 /* Karejo */ = {
+			isa = PBXGroup;
+			children = (
+				435707651B2EAFD5003D7E73 /* AppDelegate.h */,
+				435707661B2EAFD5003D7E73 /* AppDelegate.m */,
+				435707681B2EAFD5003D7E73 /* ViewController.h */,
+				435707691B2EAFD5003D7E73 /* ViewController.m */,
+				4357076B1B2EAFD5003D7E73 /* Main.storyboard */,
+				4357076E1B2EAFD5003D7E73 /* Images.xcassets */,
+				435707701B2EAFD5003D7E73 /* LaunchScreen.xib */,
+				435707611B2EAFD4003D7E73 /* Supporting Files */,
+			);
+			path = Karejo;
+			sourceTree = "<group>";
+		};
+		435707611B2EAFD4003D7E73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				435707621B2EAFD4003D7E73 /* Info.plist */,
+				435707631B2EAFD5003D7E73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4357077A1B2EAFD5003D7E73 /* KarejoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4357077D1B2EAFD5003D7E73 /* KarejoTests.m */,
+				4357077B1B2EAFD5003D7E73 /* Supporting Files */,
+			);
+			path = KarejoTests;
+			sourceTree = "<group>";
+		};
+		4357077B1B2EAFD5003D7E73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4357077C1B2EAFD5003D7E73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4357075D1B2EAFD4003D7E73 /* Karejo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435707811B2EAFD5003D7E73 /* Build configuration list for PBXNativeTarget "Karejo" */;
+			buildPhases = (
+				4357075A1B2EAFD4003D7E73 /* Sources */,
+				4357075B1B2EAFD4003D7E73 /* Frameworks */,
+				4357075C1B2EAFD4003D7E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Karejo;
+			productName = Karejo;
+			productReference = 4357075E1B2EAFD4003D7E73 /* Karejo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435707761B2EAFD5003D7E73 /* KarejoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435707841B2EAFD5003D7E73 /* Build configuration list for PBXNativeTarget "KarejoTests" */;
+			buildPhases = (
+				435707731B2EAFD5003D7E73 /* Sources */,
+				435707741B2EAFD5003D7E73 /* Frameworks */,
+				435707751B2EAFD5003D7E73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435707791B2EAFD5003D7E73 /* PBXTargetDependency */,
+			);
+			name = KarejoTests;
+			productName = KarejoTests;
+			productReference = 435707771B2EAFD5003D7E73 /* KarejoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435707561B2EAFD4003D7E73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Arie Prasetyo";
+				TargetAttributes = {
+					4357075D1B2EAFD4003D7E73 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					435707761B2EAFD5003D7E73 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4357075D1B2EAFD4003D7E73;
+					};
+				};
+			};
+			buildConfigurationList = 435707591B2EAFD4003D7E73 /* Build configuration list for PBXProject "Karejo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435707551B2EAFD4003D7E73;
+			productRefGroup = 4357075F1B2EAFD4003D7E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4357075D1B2EAFD4003D7E73 /* Karejo */,
+				435707761B2EAFD5003D7E73 /* KarejoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4357075C1B2EAFD4003D7E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4357076D1B2EAFD5003D7E73 /* Main.storyboard in Resources */,
+				435707721B2EAFD5003D7E73 /* LaunchScreen.xib in Resources */,
+				4357076F1B2EAFD5003D7E73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435707751B2EAFD5003D7E73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4357075A1B2EAFD4003D7E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4357076A1B2EAFD5003D7E73 /* ViewController.m in Sources */,
+				435707671B2EAFD5003D7E73 /* AppDelegate.m in Sources */,
+				435707641B2EAFD5003D7E73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435707731B2EAFD5003D7E73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4357077E1B2EAFD5003D7E73 /* KarejoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435707791B2EAFD5003D7E73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4357075D1B2EAFD4003D7E73 /* Karejo */;
+			targetProxy = 435707781B2EAFD5003D7E73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4357076B1B2EAFD5003D7E73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4357076C1B2EAFD5003D7E73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		435707701B2EAFD5003D7E73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435707711B2EAFD5003D7E73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4357077F1B2EAFD5003D7E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		435707801B2EAFD5003D7E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435707821B2EAFD5003D7E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Karejo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		435707831B2EAFD5003D7E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Karejo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		435707851B2EAFD5003D7E73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KarejoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karejo.app/Karejo";
+			};
+			name = Debug;
+		};
+		435707861B2EAFD5003D7E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KarejoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karejo.app/Karejo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435707591B2EAFD4003D7E73 /* Build configuration list for PBXProject "Karejo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4357077F1B2EAFD5003D7E73 /* Debug */,
+				435707801B2EAFD5003D7E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435707811B2EAFD5003D7E73 /* Build configuration list for PBXNativeTarget "Karejo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435707821B2EAFD5003D7E73 /* Debug */,
+				435707831B2EAFD5003D7E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		435707841B2EAFD5003D7E73 /* Build configuration list for PBXNativeTarget "KarejoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435707851B2EAFD5003D7E73 /* Debug */,
+				435707861B2EAFD5003D7E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435707561B2EAFD4003D7E73 /* Project object */;
+}
