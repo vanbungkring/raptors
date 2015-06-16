@@ -14,6 +14,10 @@
 		4357076F1B2EAFD5003D7E73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4357076E1B2EAFD5003D7E73 /* Images.xcassets */; };
 		435707721B2EAFD5003D7E73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435707701B2EAFD5003D7E73 /* LaunchScreen.xib */; };
 		4357077E1B2EAFD5003D7E73 /* KarejoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4357077D1B2EAFD5003D7E73 /* KarejoTests.m */; };
+		435707D91B2FCC40003D7E73 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 435707D11B2FCC40003D7E73 /* Data.m */; };
+		435707DA1B2FCC40003D7E73 /* ExtraField.m in Sources */ = {isa = PBXBuildFile; fileRef = 435707D41B2FCC40003D7E73 /* ExtraField.m */; };
+		435707DB1B2FCC40003D7E73 /* Hits.m in Sources */ = {isa = PBXBuildFile; fileRef = 435707D61B2FCC40003D7E73 /* Hits.m */; };
+		435707DC1B2FCC40003D7E73 /* Jobs.m in Sources */ = {isa = PBXBuildFile; fileRef = 435707D81B2FCC40003D7E73 /* Jobs.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,15 @@
 		435707771B2EAFD5003D7E73 /* KarejoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KarejoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4357077C1B2EAFD5003D7E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4357077D1B2EAFD5003D7E73 /* KarejoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KarejoTests.m; sourceTree = "<group>"; };
+		435707D01B2FCC40003D7E73 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data.h; sourceTree = "<group>"; };
+		435707D11B2FCC40003D7E73 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Data.m; sourceTree = "<group>"; };
+		435707D21B2FCC40003D7E73 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		435707D31B2FCC40003D7E73 /* ExtraField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraField.h; sourceTree = "<group>"; };
+		435707D41B2FCC40003D7E73 /* ExtraField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraField.m; sourceTree = "<group>"; };
+		435707D51B2FCC40003D7E73 /* Hits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hits.h; sourceTree = "<group>"; };
+		435707D61B2FCC40003D7E73 /* Hits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hits.m; sourceTree = "<group>"; };
+		435707D71B2FCC40003D7E73 /* Jobs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jobs.h; sourceTree = "<group>"; };
+		435707D81B2FCC40003D7E73 /* Jobs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jobs.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,7 @@
 		435707551B2EAFD4003D7E73 = {
 			isa = PBXGroup;
 			children = (
+				435707CF1B2FCC2A003D7E73 /* Model */,
 				435707601B2EAFD4003D7E73 /* Karejo */,
 				4357077A1B2EAFD5003D7E73 /* KarejoTests */,
 				4357075F1B2EAFD4003D7E73 /* Products */,
@@ -117,6 +131,22 @@
 				4357077C1B2EAFD5003D7E73 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		435707CF1B2FCC2A003D7E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				435707D01B2FCC40003D7E73 /* Data.h */,
+				435707D11B2FCC40003D7E73 /* Data.m */,
+				435707D21B2FCC40003D7E73 /* DataModels.h */,
+				435707D31B2FCC40003D7E73 /* ExtraField.h */,
+				435707D41B2FCC40003D7E73 /* ExtraField.m */,
+				435707D51B2FCC40003D7E73 /* Hits.h */,
+				435707D61B2FCC40003D7E73 /* Hits.m */,
+				435707D71B2FCC40003D7E73 /* Jobs.h */,
+				435707D81B2FCC40003D7E73 /* Jobs.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4357076A1B2EAFD5003D7E73 /* ViewController.m in Sources */,
+				435707DB1B2FCC40003D7E73 /* Hits.m in Sources */,
 				435707671B2EAFD5003D7E73 /* AppDelegate.m in Sources */,
+				435707DC1B2FCC40003D7E73 /* Jobs.m in Sources */,
+				435707DA1B2FCC40003D7E73 /* ExtraField.m in Sources */,
 				435707641B2EAFD5003D7E73 /* main.m in Sources */,
+				435707D91B2FCC40003D7E73 /* Data.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +450,7 @@
 				435707831B2EAFD5003D7E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		435707841B2EAFD5003D7E73 /* Build configuration list for PBXNativeTarget "KarejoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +459,7 @@
 				435707861B2EAFD5003D7E73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
